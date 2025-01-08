@@ -5,6 +5,10 @@ Instead of being independent, repelling random walks sample a particular node's 
 Each walk's marginal distribution is unchanged so graph-based Monte Carlo estimators remain unbiased, but the correlations between walkers tend to improve estimator concentration. 
 This is an example of a **quasi**-Monte Carlo scheme for estimators defined on discrete spaces -- one of the first of its kind.
 
+<div align="center">
+  <img src="/rrws_schematic.png" alt="Alt text" width="500">
+</div>
+
 **This repo.** 
 This lightweight repo reproduces Fig. 2 of the paper, which shows the kernel approximation using [graph random features](https://arxiv.org/pdf/2310.04859) when walkers are i.i.d., exhibit [antithetic termination](https://arxiv.org/abs/2305.12470), are repelling, or both. As per our theoretical guarantees (see Thm. 3.1), the estimator convergence is improved with repelling walks. 
 
