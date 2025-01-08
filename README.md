@@ -19,7 +19,7 @@ For a quick installation, run:
 ```bash
 conda env create -f environment.yml --name new_environment_name
 ```
-in the folder of the downloaded repo in terminal. But in practice one only needs numpy, matplotlib, scipy and ipykernel.
+in the downloaded repo in terminal. But in practice one only needs numpy, matplotlib, scipy and ipykernel.
 
 **Significance and extensions.**
 Quasi-Monte Carlo (QMC) methods, which enhance the convergence of estimators by introducing correlations between samples, are well-established in the Euclidean setting.
